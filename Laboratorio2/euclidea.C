@@ -1,40 +1,44 @@
+/*Preambolo: inclusione degli stumenti necessari
+e altre amenità                               */
+
 #include <iostream>
 
+
 using namespace std;
+/*Fine preambolo*/
+
+//main e` il programma
 
 int main(){
 
-    int a,b;
-    int quoz, resto;
+    int b,a; //Dividendo e divisore
+    int q,r; //Variabili di lavoro che conterranno il risultato.
 
-    //Stampo messaggio:
-    cout << endl << "Inserire dividendo e divisiore: " ;
+    cout << "Inserire dividendo e divisore: " << endl;
     
-    cin >> a; //Legge da tastiera e registra valore in a
-    cin >> b; //Legge da tastiera e registra valore in b
-    
-    //Dati acquisiti: ora procediamo
-    
-    resto=a;
-    quoz=0;
+    cin >> a;  //Leggo valore da tastiera e lo registro in a
+    cin >> b;   //Leggo valore da tastiera e lo registro in b
 
-    if(b!=0){//Allora
+    if(b>0){
 
-        //Procediamo
-        while(resto-b >= 0){    //qui inizia l'elenco delle cose
-                                //fino a che la condizione resto-b>=0 
-                                //e` vera...
-            quoz = quoz+1;
-            resto = resto-b;
-        } //fine delle cose fa fare nel ciclo.
+        //Azione 1
+        r = a;
+        q = 0;
 
-        //Stampo il risultato
-        cout << endl <<"Quoziente: " << quoz <<"; resto: " << resto << endl;
+        while(r-b >= 0){
+            q = q+1;
+            r = r-b;
+        }
 
+        cout << "Quoziente: " << q << "; resto: " << r << endl;
     }
-    else{//Altrimenti
-        cout <<endl <<"Divisione per zero!" << endl;
+
+    else{
+        //Azione 2
+        cout << "Divisione per zero non ha senso, pollo! " << endl;
     }
-    
+
+
     return 0;
 }
+//Fine programma
