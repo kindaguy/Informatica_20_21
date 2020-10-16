@@ -5,8 +5,8 @@ using namespace std;
 int main(){
 
     int dato;
-    int accu = 0;
-    int conta = 0;
+    int accu = 0; //Inizializzo a zero!!!
+    int conta = 0; //inizializzo a zero!!!
 
     //Iniziamo acquisizione dati.
     //Attenzione: 
@@ -47,7 +47,14 @@ int main(){
 
     if (conta > 0){
         cout << endl << "totale: " << accu;
-        cout << endl << "media: " << (float) accu/conta; //**
+        cout << endl << "media: " << (float)accu/conta; //** Attenzione accu/conta restituirebbe quoziente della divisione intera
+                                                        //(float)accu trasforma accu (temporaneamente) in float la variabile accu
+                                                        //(float)accu/conta fa eseguire la divisione razionale.
+                                                        //(T)variabile: cast esplicito della variabile al tipo T
+                                                        //  /: int x int -> int (quoziente)
+                                                        //  /:float x int -> float (divisione razionale)
+                                                        //  /:int x float -> float
+                                                         
     }
     else{
         cout << endl << "Nessun dato in serito, totale = 0" << endl;
