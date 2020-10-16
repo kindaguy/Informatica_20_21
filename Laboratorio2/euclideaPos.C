@@ -4,6 +4,7 @@ using namespace std;
 
 int main(){
 
+    int appo;
     int a,b;
     int quoz, resto;
 
@@ -43,5 +44,6 @@ int main(){
         cout <<endl <<"Divisione per zero!" << endl;
     }
     
+    cin  >> appo; 
     return 0;
 }
