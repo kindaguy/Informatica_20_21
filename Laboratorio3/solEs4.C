@@ -21,8 +21,8 @@ int main(){
                 min  = appo;
                 max = appo;
             }
-            accu+=appo;
-            accu2+=appo*appo;
+            accu+=appo; //Equivalente a accu = accu + appo;
+            accu2+=appo*appo; 
             //Aggiorno minimo:
             if(appo<min)
                 min=appo;
