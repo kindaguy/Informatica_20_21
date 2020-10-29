@@ -1,3 +1,6 @@
+//#include copia e incolla tutte le dichiarazioni di funzione contenute in un file che si chiama
+// iostream.h che si trova da qualche parte sul vostro computer
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -5,7 +8,10 @@
 using namespace std;
 //Dichiarazione di costante DIM 
 
-#define DIM 10
+#define DIM 20
+
+
+
 
 //Da questo punto in avanti il compilatore operera` una sostituzione
 //lessicografica di ogni occorrenza della sequenza di caratteri DIM 
@@ -18,6 +24,8 @@ int main(){
 
     int v[DIM];
     int max;
+
+
     //Imposta il seme del generatore di numeri casuali
     //usando l'orologio di sistema
     //Questo consente di avere sequenze di numeri diversi in diverse 
