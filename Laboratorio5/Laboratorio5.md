@@ -40,7 +40,7 @@ Fornire una stima Monte Carlo dell'integrale, usando, con attenzione, una delle 
  
  
  ## Esercizio 3
-Implementare una funzione che realizzi la trasformazione di Box-Muller descritta a lezione. In particolare, la funzione dovrà ricevere in ingresso due parametri __double__ corrispondenti alla media e alla deviazione standard (radice quadrata della varianza) della distribuzione Gaussiana da cui vogliamo estrarre valori, e restituire un singolo valore __double__ corrispondente al primo valore (__Z0__) generato dalla trasformazione. Pertanto la signature della funzione sarà
+Implementiamo insieme una funzione che realizzi la trasformazione di Box-Muller per la generazione di numeri casuali estratti da una popolazione Gaussiana di media e varianza assegnata. In particolare, la funzione dovrà ricevere in ingresso due parametri __double__ corrispondenti alla media e alla deviazione standard (radice quadrata della varianza) della distribuzione Gaussiana da cui vogliamo estrarre valori, e restituire un singolo valore __double__ corrispondente al primo valore (__Z0__) generato dalla trasformazione. Pertanto la signature della funzione sarà
 
 __double  boxmuller(double m,double s)__
 
