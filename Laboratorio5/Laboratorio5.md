@@ -12,9 +12,9 @@ Stimiamo _pigreco_ usando la tecnica Monte Carlo discussa a lezione. Supporremo 
 
 1. Definire una funzione
 
-__int withincircle(double x, double y)__
+__bool withincircle(double x, double y)__
 
- che, presa in ingresso una coppia di valori __double__ (la coordinata x e y rispettivamente di un punto estratto a caso in _E_) restituisca 1 se il punto corrispondente cade all'interno di una circonferenza di raggio unitario centrata nell'origine.
+ che, presa in ingresso una coppia di valori __double__ (la coordinata x e y rispettivamente di un punto estratto a caso in _E_) restituisca __true__ se il punto corrispondente cade all'interno di una circonferenza di raggio unitario centrata nell'origine, __false__ atrimenti.
 
 2. Definire una funzione 
 
