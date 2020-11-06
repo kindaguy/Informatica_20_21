@@ -43,15 +43,16 @@ Sftuttando tutto quanto saccheggiabile dall'esercizio precedente:
 2. Registrare quanto ottenuto su un file dal nome __esperimenti.dat__ con il seguente formato:
   	__numero di misure__
   	__numero di rilevazioni di posizione per misura__
-  	__i [tabulazione] pos[0][0] [tabulazione] pos[0][1] ... pos[0][99]__
-  	__i [tabulazione] pos[1][0] [tabulazione] pos[1][1] ... pos[1][99]__
-  	  	__i [tabulazione] pos[9][0] [tabulazione] pos[9][1] ... pos[9][99]__
-
+  	
+  seguito dalla descrizione, riga per riga delle traiettorie; per intenderci: sun una riga le 100 rilevazioni della prima traiettoria, sulla riga successiva la descrizione della seconda traiettoria e così via.
+  
 ## Esercizio 3
-Scrivere un programma che, preparata una matrice (tabella) di M=10 righe e N=100 colonne, riempirla con i dati letti da __esperimenti.dat__.
+Scrivere un programma che, preparata una matrice (tabella) di M=10 righe e N=100 colonne, la riempia con i dati letti da __esperimenti.dat__
 
 Calcolare: 
 
 1. La velocità  media per ogni traiettoria.
 2. La media delle posizioni per ogni istante di tempo.
 3. La deviazione standard delle posizioni per ogni istante di tempo.
+4. Stampae a video tutti i risultati accompagnati dalle relative didascalie.
+5. Stampare tutto quanto stampato a video anche su file.
