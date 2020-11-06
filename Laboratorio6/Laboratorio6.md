@@ -32,19 +32,19 @@ Piu` precisamente ogni riga del file dovrà contenere una coppia __(i,pos[i])__ 
 
 ## Esercizio 2
 
-Sftuttando tutto quanto saccheggiabile dall'esercizio precedente:
+Sfruttando tutto quanto saccheggiabile dall'esercizio precedente:
 
-1. Generare M = 10 vettori di errori, e 10 vettori di posizioni come al punto precedente. I 10 vettori di posizioni differiranno per gli errori.
+1. Generare 10 traiettorie, che differiranno per gli errori. Infatti, per ciascuna traiettoria, riempire il vettore __e__ di valori a caso e usare i valori generati per determinare la collezione 
 
-	__pos[i][j] = 0.2* i + 0.3  + e[i][j]__
+	__esperimento[j][i] = 0.2* i + 0.3  + e[i]__
 
-	dove __j__ gioca il ruolo di indice di colonna (istante temporale, se volete) e __i__ è  l'indice di riga (di quale misura di moto stiamo parlando).
+	di traiettorie desiderata, dove __j__ gioca il ruolo di indice di traiettoria (indice di riga) e __i__ indica la rilevazione (è  l'indice di colonna).
 	
 2. Registrare quanto ottenuto su un file dal nome __esperimenti.dat__ con il seguente formato:
   	__numero di misure__
   	__numero di rilevazioni di posizione per misura__
   	
-  seguito dalla descrizione, riga per riga delle traiettorie; per intenderci: sun una riga le 100 rilevazioni della prima traiettoria, sulla riga successiva la descrizione della seconda traiettoria e così via.
+ 	seguito dalla descrizione, riga per riga delle traiettorie; per intenderci: sun una riga le 100 rilevazioni della prima traiettoria, sulla riga successiva la descrizione della seconda traiettoria e così via.
   
 ## Esercizio 3
 Scrivere un programma che, preparata una matrice (tabella) di M=10 righe e N=100 colonne, la riempia con i dati letti da __esperimenti.dat__
