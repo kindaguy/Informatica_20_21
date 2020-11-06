@@ -5,7 +5,7 @@ Proviamo un nuovo strumento: i files. I dati contenuti nei files sopravvivono al
 ## Esercizio 1
 
 
-1.  Dichiarare e definire una funzione
+1.  Dichiarare e definire una procedura
 
 	__void  riempiArrayGauss(double [], int dim, double m, double std);__
 
@@ -32,7 +32,7 @@ Piu` precisamente ogni riga del file dovrà contenere una coppia __(i,pos[i])__ 
 
 ## Esercizio 2
 
-Sftuttando tutto quanto saccheggiabile dall'esercizio precedente:
+Sfruttando tutto quanto saccheggiabile dall'esercizio precedente:
 
 1. Generare M = 10 vettori di errori, e 10 vettori di posizioni come al punto precedente. I 10 vettori di posizioni differiranno per gli errori.
 
