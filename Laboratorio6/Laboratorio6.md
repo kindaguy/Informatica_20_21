@@ -36,16 +36,16 @@ Sfruttando tutto quanto saccheggiabile dall'esercizio precedente:
 
 1. Generare M = 10 vettori di errori, e 10 vettori di posizioni come al punto precedente. I 10 vettori di posizioni differiranno per gli errori.
 
-	__pos[i][j] = 0.2* i + 0.3  + e[i][j]__
+	__esperimento[i][j] = 0.2* i + 0.3  + e[i][j]__
 
 	dove __j__ gioca il ruolo di indice di colonna (istante temporale, se volete) e __i__ è  l'indice di riga (di quale misura di moto stiamo parlando).
 	
 2. Registrare quanto ottenuto su un file dal nome __esperimenti.dat__ con il seguente formato:
   	__numero di misure__
   	__numero di rilevazioni di posizione per misura__
-  	__i [tabulazione] pos[0][0] [tabulazione] pos[0][1] ... pos[0][99]__
-  	__i [tabulazione] pos[1][0] [tabulazione] pos[1][1] ... pos[1][99]__
-  	  	__i [tabulazione] pos[9][0] [tabulazione] pos[9][1] ... pos[9][99]__
+  	__i [tabulazione] esperimento[0][0] [tabulazione] esperimento[0][1] ... esperimento[0][99]__
+  	__i [tabulazione] esperimento[1][0] [tabulazione] esperimento[1][1] ... esperimento[1][99]__
+  	  	__i [tabulazione] esperimento[9][0] [tabulazione] esperimento[9][1] ... esperimento[9][99]__
 
 ## Esercizio 3
 Scrivere un programma che, preparata una matrice (tabella) di M=10 righe e N=100 colonne, riempirla con i dati letti da __esperimenti.dat__.
