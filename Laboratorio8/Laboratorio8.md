@@ -1,4 +1,4 @@
-# Laboratorio 7: Allocazione dinamica della memoria e files.
+# Laboratorio 8: Allocazione dinamica della memoria e files.
 
 In questo laboratorio affronteremo l'allocazione dinamica della memoria, il caricamento e la stampa di dati da/verso files.
 
