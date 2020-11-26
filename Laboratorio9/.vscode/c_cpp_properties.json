@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${default}",
+                "/usr/include/x86_64-linux-gnu/c++/7",
+                "/home/tama/root/include"
+            ],
+            "defines": [],
+            "compilerPath": "/opt/intel/compilers_and_libraries_2020.4.304/linux/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

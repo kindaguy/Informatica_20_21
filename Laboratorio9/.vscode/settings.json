@@ -1,0 +1,11 @@
+{
+   "files.associations": {
+      "esempioRoot.C": "cpp",
+      "esempioAllocDinamica.C": "cpp",
+      "esempioAD_clean.C": "cpp",
+      "fstream": "cpp",
+      "libreria.C": "cpp",
+      "esempioAD_cs.C": "cpp",
+      "esempioScatter.C": "cpp"
+   }
+}
