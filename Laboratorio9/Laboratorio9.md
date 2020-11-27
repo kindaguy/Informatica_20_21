@@ -7,8 +7,11 @@ In questo laboratorio creeremo le nostre prime librerie. Esemplificheremo l'uso 
 Seguendo quanto visto a lezione, creare una libreria contenente tutte le funzioni definite fino ad ora per la generazione di numeri casuali, tra cui:
 
 __int acaso(int,int)__
+
 __float acaso(float,float)__
+
 __double acaso(double,double)__
+
 __double boxMuller(double,double)__
 
 La libreria dovrà anche contenere una funzione 
