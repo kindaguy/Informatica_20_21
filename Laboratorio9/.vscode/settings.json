@@ -8,6 +8,10 @@
       "esempioAD_cs.C": "cpp",
       "esempioScatter.C": "cpp",
       "es_3_6.C": "cpp",
-      "es_4_6.C": "cpp"
+      "es_4_6.C": "cpp",
+      "sol_9_3.C": "cpp",
+      "puntoMat.C": "cpp",
+      "sol_9_4.C": "cpp",
+      "sol_9_5.C": "cpp"
    }
 }
