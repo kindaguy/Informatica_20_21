@@ -6,6 +6,8 @@
       "fstream": "cpp",
       "libreria.C": "cpp",
       "esempioAD_cs.C": "cpp",
-      "esempioScatter.C": "cpp"
+      "esempioScatter.C": "cpp",
+      "es_3_6.C": "cpp",
+      "es_4_6.C": "cpp"
    }
 }

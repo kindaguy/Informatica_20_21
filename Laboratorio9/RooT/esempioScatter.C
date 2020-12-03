@@ -9,7 +9,7 @@
 #include "TApplication.h"
 
 //TGraph.h: definisce la classe TGraph che consente di 
-//disgnare grafici di dispersione.
+//disgnare grafici di dispersione (scatterplot).
 #include "TGraph.h"
 
 //Altro non vi serve sapere per ora.
@@ -19,6 +19,7 @@ using namespace std;
 int main(){
 
    int size = 0;
+
    double *posx = NULL;
    double *posy = NULL;
 
@@ -35,7 +36,7 @@ int main(){
 
    for(int i=0; i<size; i++){
       posx[i] =  (float)i/size;
-      posy[i] = 0.2 + posx[i]*0.3 + 0.2*(float)rand()/RAND_MAX;
+      posy[i] = 0.2 + posx[i] * 0.3 + 0.2*(float)rand()/RAND_MAX;
    }
 
    //Qui inizia la parte di RooT. 

@@ -14,6 +14,7 @@ using namespace std;
 //#define NN 100
 //#define MM 100
 
+
 int main(){
 
    int nrighe, ncol;
