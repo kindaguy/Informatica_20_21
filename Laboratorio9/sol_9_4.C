@@ -17,6 +17,7 @@ int main(){
 	//Controllo che non ci siano stati problemi
 	if(v == NULL){
 		cout << endl << "Errore in fase di caricamento....esco" << endl;
+		return -1;
 	}
 
 	
