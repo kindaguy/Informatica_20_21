@@ -10,7 +10,7 @@
 #include "TH1F.h"
 
 //Costanti
-#define NN 100
+#define NN 1000
 #define PI 3.1415f
 
 using namespace std;
