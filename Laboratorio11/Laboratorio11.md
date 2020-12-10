@@ -43,11 +43,11 @@ Caricati ancora una volta i dati dal file __datiMoto.dat__, stampare a video il 
 
 dove in 
 
-<img src="https://render.githubusercontent.com/render/math?math= S_{xx} = \frac{1}{N} \sum_{i=1}^N (x_i-\bar{x})^2">
+<img src="https://render.githubusercontent.com/render/math?math=S_{xx} = \frac{1}{N} \sum_{i=1}^N (x_i-\bar{x})^2">
 
 riconosciamo la varianza del campione, mentre
 
-<img src="https://render.githubusercontent.com/render/math?math= S_{xy} = \frac{1}{N} \sum_{i=1}^N (x_i - \bar{x})((y_i - \bar{y}))">
+<img src="https://render.githubusercontent.com/render/math?math=S_{xy} = \frac{1}{N} \sum_{i=1}^N (x_i - \bar{x})((y_i - \bar{y}))">
 
 quantifica la correlazione tra x e y.
 
