@@ -24,7 +24,7 @@ __struct complesso{
 };__
 
 Caricare un vettore di lunghezza __n__  valori __complesso__, con __n__ determinato a _runtime_ (riempitelo come volete: da tastiera, da file, di numeri casuali,...).
-Ordinare il vettore in ordine di _modulo_ crescente, usando la procedura __mergesort__ definita nell'Esercizio 1, opportunamente modificata.
+Ordinare il vettore in ordine di _modulo_ crescente, usando la procedura __mergeSort__ definita nell'Esercizio 2, opportunamente modificata.
 
 ## Esercizio 5
 
