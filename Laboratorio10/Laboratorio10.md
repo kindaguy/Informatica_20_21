@@ -28,12 +28,12 @@ Scrivere un programa che chieda all'utente il nome di un file contenente una seq
 
 __arrayInt caricaArrayIntFile(char * nomefile)__
 
-che preso in ingresso il nome di un file, ne carichi il contenuto attraverso un  __arrayInt__ (la struct discussa oggi a lezione) e restituisca la struct inizializzata. In caso di errore, la funzione dovrà assegnare al campo __int *vett__ dell'__arrayInt__ il valore __NULL__ e al campo __int size__ il valore -1.
+che preso in ingresso il nome di un file, ne carichi il contenuto attraverso un  __arrayInt__ (la struct discussa oggi a lezione) e restituisca la struct inizializzata. In caso di errore, la funzione dovrà assegnare al campo __int *raw__ dell'__arrayInt__ il valore __NULL__ e al campo __int size__ il valore -1.
 
 Ricordiamo:
 
 1. Che l'assegnamento tra struct dello stesso tipo è possibile.
-1. Che il campo __int *vett__ della struttura __arrayInt__ contiene l'indirizzo del vettore dinamicamente allocato (e caricato) dalla funzione __caricaArrayIntFile__, che quindi sopravviverà alla chiusura della funzione.
+1. Che il campo __int *raw__ della struttura __arrayInt__ contiene l'indirizzo del vettore dinamicamente allocato (e caricato) dalla funzione __caricaArrayIntFile__, che quindi sopravviverà alla chiusura della funzione.
 
 Scrivere poi una variante della funzione con signature
 
@@ -57,7 +57,7 @@ Si carichino gli interi descritti nel file __datiInteri.dat__ in un vettore di l
 
 Implementare la funzione 
 
-__int ricercaBinaria(int key, int *v, int beg, int end)__
+__int ricercaBinaria(int *v, int key,  int beg, int end)__
 
 discussa a lezione e testarla.
 

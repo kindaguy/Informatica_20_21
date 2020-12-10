@@ -64,7 +64,7 @@ int main(){
     //Suppongo stdDev dei dati essere uguale a quella nota. Non e` vero, ma cambia poco.
 
     //Creazione ecosistema
-    TApplication *app = new TApplication("Applicazione",0,0);
+    TApplication app("Applicazione",0,0);
     
     //Creazione istogramma
     //Parametri (in ordine di apparizione):
@@ -73,17 +73,17 @@ int main(){
     //numero bins
     //inizio intervallo
     //fine intervallo
-    TH1F * histogram = new TH1F("Histo","Error Histogram", nbins, min-1e-3,max+1e-3);
+    TH1F  histogram("Histo","Error Histogram", nbins, min-1e-3,max+1e-3);
 
     //Riempio istogramma (ci pensa root a cestinare nel modo giusto)
 
     for(int i=0; i<NN; i++)
-        histogram ->Fill(errori[i]);
+        histogram.Fill(errori[i]);
 
-    histogram ->Draw();
+    histogram.Draw();
 
     
-    app->Run(1);
+    app.Run(0);
 
 
 
