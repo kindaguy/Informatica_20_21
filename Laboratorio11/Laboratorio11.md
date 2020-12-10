@@ -38,8 +38,8 @@ Caricati dal file __datiMoto.dat__ un numero imprecisato di coppie di razionali 
 
 Caricati ancora una volta i dati dal file __datiMoto.dat__, stampare a video il numero di dati. Calcolare poi i coefficienti __q__ e __m__ della retta di regressione utilizzando le formule:
 
-<img src="https://render.githubusercontent.com/render/math?math= b=S_{xy}/S_{xx}">
-<img src="https://render.githubusercontent.com/render/math?math= a=\bar{y} - b \bar{x}">
+<img src="https://render.githubusercontent.com/render/math?math=b = S_{xy}/S_{xx}">
+<img src="https://render.githubusercontent.com/render/math?math=a=\bar{y} - b \bar{x}">
 
 dove in 
 
