@@ -36,7 +36,7 @@ Caricati dal file __datiMoto.dat__ un numero imprecisato di coppie di razionali 
 
 ## Esercizio 6
 
-Caricati ancora una volta i dati dal file __datiMoto.dat__, stampare a video il numero di dati. Calcolare poi i coefficienti __q__ e __m__ della retta di regressione utilizzando le formule:
+Caricati ancora una volta i dati dal file __datiMoto.dat__, stampare a video il numero di dati. Calcolare poi  e stampare a video i coefficienti __q__ e __m__ della retta di regressione utilizzando le formule:
 
 <img src="https://render.githubusercontent.com/render/math?math=b = S_{xy}/S_{xx}">
 <img src="https://render.githubusercontent.com/render/math?math=a=\bar{y} - b \bar{x}">
@@ -49,11 +49,7 @@ riconosciamo la varianza del campione, mentre
 
 <img src="https://render.githubusercontent.com/render/math?math=S_{xy} = \frac{1}{N} \sum_{i=1}^N (x_i - \bar{x})((y_i - \bar{y}))">
 
-quantifica la correlazione tra x e y.
+quantifica la correlazione tra x e y. Le quantità barrate sono invece medie.
 
-
-
-
-Caricato un vettore di __complesso__ (vedi esercizio 3) di numeri aventi parte reale e parte immaginaria estratti da una popolazione Gaussiana standard, disegnare uno scatterploto dei numeri complessi, rappresentanto la parte reale in ascissa e la parte complessa in ordinata.
-Usare il programma descritto in __provaFit.C__ come riferimento.
+Disegnare con RooT lo scatterplot dei punti caricati, insieme alla retta di regressione con i coefficienti calcolati.
 
