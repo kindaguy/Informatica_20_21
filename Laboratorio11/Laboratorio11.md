@@ -11,7 +11,7 @@ Partendo dalla definizione della procedura __merge__ presentata nel file __prova
 
 ## Esercizio 3
 
-Modificare la funzione __mergesort__  in una funzione __mergesortInv__ che ordini gli elementi del vettore in ordine monotono non crescente.
+Modificare la funzione __mergeSort__  in una funzione __mergesortInv__ che ordini gli elementi del vettore in ordine monotono non crescente.
 
 
 ## Esercizio 4
