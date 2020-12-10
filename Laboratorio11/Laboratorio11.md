@@ -28,7 +28,7 @@ Ordinare il vettore in ordine di _modulo_ crescente, usando la procedura __merge
 
 ## Esercizio 5
 
-Caricati dal file __datiMoto.dat__ un numero imprecisato di coppie di razionali (in singola precisione), ciascuna rappresentate le coordinate di un punto sul piano cartesiano
+Caricati dal file __datiMoto.dat__ un numero imprecisato di coppie di razionali (in singola precisione), ciascuna rappresentate le coordinate <img src="https://render.githubusercontent.com/render/math?math=(x_i,y_i)"> di un punto sul piano cartesiano
 
 1. Stampare a video il numero delle coppie caricate.
 2. Visualizzare uno scatterplot dei punti.
@@ -38,7 +38,21 @@ Caricati dal file __datiMoto.dat__ un numero imprecisato di coppie di razionali 
 
 Caricati ancora una volta i dati dal file __datiMoto.dat__, stampare a video il numero di dati. Calcolare poi i coefficienti __q__ e __m__ della retta di regressione utilizzando le formule:
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+<img src="https://render.githubusercontent.com/render/math?math= b=S_{xy}/S_{xx}">
+<img src="https://render.githubusercontent.com/render/math?math= a=\bar{y} - b \bar{x}">
+
+dove in 
+
+<img src="https://render.githubusercontent.com/render/math?math= S_{xx} = \frac{1}{N} \sum_{i=1}^N (x_i-\bar{x})^2">
+
+riconosciamo la varianza del campione, mentre
+
+<img src="https://render.githubusercontent.com/render/math?math= S_{xy} = \frac{1}{N} \sum_{i=1}^N (x_i - \bar{x})((y_i - \bar{y}))">
+
+quantifica la correlazione tra x e y.
+
+
+
 
 Caricato un vettore di __complesso__ (vedi esercizio 3) di numeri aventi parte reale e parte immaginaria estratti da una popolazione Gaussiana standard, disegnare uno scatterploto dei numeri complessi, rappresentanto la parte reale in ascissa e la parte complessa in ordinata.
 Usare il programma descritto in __provaFit.C__ come riferimento.
