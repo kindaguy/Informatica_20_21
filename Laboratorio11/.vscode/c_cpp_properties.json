@@ -3,7 +3,8 @@
         {
             "name": "Linux",
             "includePath": [
-                "${default}"
+                "${default}",
+                "/usr/include/x86_64-linux-gnu/c++/7"
             ],
             "defines": [],
             "compilerPath": "/opt/intel/compilers_and_libraries_2020.4.304/linux/bin/clang",

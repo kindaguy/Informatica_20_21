@@ -1,6 +1,11 @@
 {
 	"files.associations": {
 		"esempioString.C": "cpp",
-		"iostream": "cpp"
+		"iostream": "cpp",
+		"mergeSort.C": "cpp",
+		"sol_5_11.C": "cpp",
+		"provaLinearFit.C": "cpp",
+		"provaFitSquare.C": "cpp",
+		"sol_6_11.C": "cpp"
 	}
 }
