@@ -14,7 +14,7 @@ che presi in ingresso il numero di posizioni (__length__) e la posizione inizial
 
 <img src="https://render.githubusercontent.com/render/math?math=X(0) = x_0, X(k + 1) = X_i(k) \pm Y_i^k">
 
-dove 
+dove __X(k1)__ sarebbe __X(k+1)__ visualizzato male (!!!) e 
 
 <img src="https://render.githubusercontent.com/render/math?math=P(Y_i^k =+1) = P(Y_i^k =-1) =\frac{1}{2},\ \forall i,k">.
 
