@@ -79,6 +79,42 @@ int resize(myArrayFloat *pa, int newS){
 
 	//Check the upper index
 	top = (newS >= pa->size?pa->size:newS);
+
+	for(int i=0; i<top; i++){
+		vappo[i]=pa->raw[i];
+	}
+
+	//Update size
+	pa->size = newS;
+	//Update used;
+	pa->used = top;
+	//Detele the old array in heap
+	delete [] pa->raw;
+	//point to the new array
+	pa->raw = vappo;
+	
+	return 0;
+
+
+
+}
+
+//Resize of myArray
+//Parameters: 
+//--pa: reference to instance to modify
+//--newS: new size 
+int resizeWithBlock(myArrayFloat *pa, int newS){
+	
+	int top;
+	//Create a new array
+	float *vappo = new float[newS];
+	
+	if(vappo == NULL){
+		return -1;
+	}
+
+	//Check the upper index
+	top = (newS >= pa->size?pa->size:newS);
 	
 	//Pay attention here
 	//Copies a block of top*sizeof(float) bytes
@@ -101,38 +137,7 @@ int resize(myArrayFloat *pa, int newS){
 	pa->raw = vappo;
 	
 	return 0;
-}
-
-//Resize of myArray
-//Parameters: 
-//--pa: reference to instance to modify
-//--newS: new size 
-int resizeWithBlock(myArrayFloat *pa, int newS){
 	
-	int top;
-	//Create a new array
-	float *vappo = new float[newS];
-	
-	if(vappo == NULL){
-		return -1;
-	}
-
-	//Check the upper index
-	top = (newS >= pa->size?pa->size:newS);
-	for(int i=0; i<top; i++){
-		vappo[i]=pa->raw[i];
-	}
-
-	//Update size
-	pa->size = newS;
-	//Update used;
-	pa->used = top;
-	//Detele the old array in heap
-	delete [] pa->raw;
-	//point to the new array
-	pa->raw = vappo;
-	
-	return 0;
 }
 
 
@@ -163,21 +168,29 @@ int initResize(myArrayFloat *pa, const char fileName[]){
 		return -1; //Memory allocation error
 	}
 	
+	//Ho un vettore di dimensione INIT_SIZE a disposizione
 	fileIn >> appo;
 	while (!fileIn.eof()){
+		
 		//Is there space?
 		if(isFull(*pa)){
-			resize(pa, 2*pa->size);
+
+			if( resize(pa, 2*pa->size) == -1) return -1;
+		
 		}
+
+
 		//Array resized: there is space...
 		pa->raw[count] = appo;
 		pa->used++;
 		count++;
+		
 		fileIn >> appo;
 	}
 
 	fileIn.close();
 	
+	//resize(pa,count);
 	return 0;
 
 }

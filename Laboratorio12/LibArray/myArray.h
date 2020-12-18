@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+//Serve per memcpy
 #include <cstring>
 
 using namespace std;
@@ -21,6 +22,7 @@ per scrivere le definizioni (ma e` una cosa personale).*/
 
 //Inizialize to empty array
 int init(myArrayFloat *pa);
+//float init(myArrayFloat *pa);
 //Initialize to array of size dim
 int init(myArrayFloat *pa, int dim);
 //Initialize reading from file (containing floats)
@@ -46,5 +48,8 @@ int initResize(myArrayFloat *pa, const char fileName[]);
 
 bool isFull(myArrayFloat a);
 
+//Funzioni di copia:
+//Copia superficiale
 int shallowCopy(myArrayFloat source, myArrayFloat *dest);
+//Copia profonda
 int deepCopy(myArrayFloat source, myArrayFloat *dest);

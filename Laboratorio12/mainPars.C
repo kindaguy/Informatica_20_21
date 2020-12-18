@@ -15,6 +15,8 @@ int main(int argc, char **argv){
 
 	a = atof(argv[1]);
 	b = atof(argv[2]);
+	
+	//atoi
 
 	cout << endl << "Somma: " << a+b << endl;
 
